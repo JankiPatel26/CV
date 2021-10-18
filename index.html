@@ -1,82 +1,394 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en-US">
 
 <head>
-  <meta charset="utf-8">
-  <title>Janki's Personal Site</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" />
+  </noscript>
+  <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+  <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
+  <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+    </style>
+  </noscript>
 </head>
 
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="jankip.png" alt="Janki Profile Picture"></td>
-      <td>  <h1>Janki Patel</h1>
-        <em>Student.</em>
-        <p><em><strong><a href="https://www.txstate.edu/">Texas state University</a></strong>.</em></p>
-        <p><em>The department of <strong><a href="http://mycatalog.txstate.edu/graduate/science-engineering/computer/ms/#requirementstext">computer science</a></strong>.</em></p></td>
-    </tr>
-  </table>
-  <p><em>I am a computer science student. this is my first semester.</em></p>
-  <hr size="3" noshade>
+<body id="top">
+  <header class="d-print-none">
+    <div class="container text-center text-lg-left">
+      <div class="py-3 clearfix">
+        <h1 class="site-title mb-0">Janki Patel</h1>
+        <div class="site-nav">
+          <nav role="navigation">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://github.com/templateflip" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="page-content">
+    <div class="container">
+      <div class="cover shadow-lg bg-white">
+        <div class="cover-bg p-3 p-lg-4 text-white">
+          <div class="row">
+            <div class="col-lg-4 col-md-5">
+              <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="images/janki.jpg" width="200" height="200" /></div>
+            </div>
+            <div class="col-lg-8 col-md-7 text-center text-md-start">
+              <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Janki Patel</h2>
+              <p data-aos="fade-left" data-aos-delay="100">Graduate Student - Computer Science</p>
+              <div class="d-print-none" data-aos="fade-left" data-aos-delay="200"><a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="Janki_Resume.pdf" target="_blank">Download CV</a><a class="btn btn-success shadow-sm mt-1"
+                  href="#contact">Hire Me</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="about-section pt-4 px-3 px-lg-4 mt-1">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="h3 mb-3">About Me</h2>
+              <p>Hello!I am a Computer Science student with interest in application development is looking for an internship position in Software
+                Engineering.</p>
+            </div>
+            <div class="col-md-5 offset-md-1">
+              <div class="row mt-2">
+                <div class="col-sm-4">
+                  <div class="pb-1">Age</div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="pb-1 text-secondary">30</div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="pb-1">Email</div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="pb-1 text-secondary">jankip2691@gmail.com</div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="pb-1">Phone</div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="pb-1 text-secondary">331-385-4847</div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="pb-1">Address</div>
+                </div>
+                <div class="col-sm-8">
+                  <div class="pb-1 text-secondary">Austin,Texas, U.S.A</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="d-print-none" />
+        <div class="skills-section px-3 px-lg-4">
+          <h2 class="h3 mb-3">Professional Skills</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="mb-2"><span>HTML</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>CSS</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 85%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>bootstrap</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>JavaScript</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>Node.JS</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>SQL</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>C++</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>Python</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-2"><span>Linux</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>REST APIs</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>React</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>MongoDB</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>MySQL</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>Data Structures and Algorithms</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="mb-2"><span>Data Modelling</span>
+                <div class="progress my-1">
+                  <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="d-print-none" />
+        <div class="page-break"></div>
+        <div class="education-section px-3 px-lg-4 pb-4">
+          <h2 class="h3 mb-4">Education</h2>
+          <div class="timeline">
+            <div class="timeline-card timeline-card-success card shadow-sm">
+              <div class="card-body">
+                <div class="h5 mb-1">MS in Computer Science <span class="text-muted h6">from Texas State University</span></div>
+                <div class="text-muted text-small mb-2">Jan 2021 - Dec 2022 (est.)</div>
+                <div class="h5 mb-1"> GPA: 3.7</div>
+                <div class="text-muted text-small mb-2">CourseWork : Data structure and Algorithms, Database systen and analysis, Distributed System, Network and Communication, Object Oriented Programming,
+                  Software Developement Life-cycle, Software quality, Web Developement</div>
 
-  <h3>Education:</h3>
-  <h4>Bachelor in Engineering in Instrumentation and Control</h4>
-  <ul>
-    <li>GTU</li>
-  </ul>
-  <h4>Masters in Computer science</h4>
-  <ul>
-    <li>Texas State University</li>
-  </ul>
-  <hr size="3" noshade>
-  <h3>My Hobbies:</h3>
-  <ol type=i>
-    <li>Music</li>
-    <li>Dance</li>
-    <li>Traveling</li>
-  </ol>
-  <hr size="3" noshade>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Date</th>
-         <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>09/2013 - 06/2016</td>
-        <td>Sales Co-Coordinator  at PIMA CONTROLS PVT. LTD</td>
-      </tr>
-      <tr>
-        <td>07/2016 - 04/2020</td>
-        <td>Sr. Technical inside Sales Engineer at SMC CORPORATION (I) PVT. LTD.</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr size="3" noshade>
-  <h3>Skills</h3>
-        <table cellspacing="10">
-          <tr>
-            <td>Dance</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Cooking</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Database Design</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>c++</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-        </table>
+              </div>
+            </div>
+            <div class="timeline-card timeline-card-success card shadow-sm">
+              <div class="card-body">
+                <div class="h5 mb-1">BS in Instrumentation and Control <span class="text-muted h6">from Govt.Engg. College, India</span></div>
+                <div class="text-muted text-small mb-2">Jun 2008 - May 2012</div>
+                <div class="h5 mb-1"> GPA: 3.7</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="d-print-none" />
+        <div class="project-section px-3 px-lg-4">
+          <h2 class="h3 mb-4">Computer Science Projects</h2>
+          <div class="timeline">
+            <div class="timeline-card timeline-card-primary card shadow-sm">
+              <div class="card-body">
+                <div class="h5 mb-1">Library Management System | JAVA </div>
+                <div>
+                  <ul>
+                    <li>Implemented a Java-based Object-oriented Backend solution that helped Library staff and members to
+                      manage books and journals lending records
+                    </li>
+                    <li>
+                      Published Class Diagram and Sequential diagram which helped other developers understand the design
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-card timeline-card-primary card shadow-sm">
+              <div class="card-body">
+                <div class="h5 mb-1">Marketing Tool for small businesses | SQL, PL/SQL, Relational Data Model </div>
+                <div>
+                  <ul>
+                    <li>
+                      Designed a comprehensive online database system using the Entity-Relationship model after analyzing all
+                      requirements
+                    </li>
+                    <li>
+                      Mapped ER model into Relational diagram for better database model understanding
+                    </li>
+                    <li>
+                      Generated the MySQL database from ER Model to store and retrieve records of business transactions
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="d-print-none" />
+      <div class="work-experience-section px-3 px-lg-4">
+        <h2 class="h3 mb-4">Work Experience</h2>
+        <div class="timeline">
+          <div class="timeline-card timeline-card-primary card shadow-sm">
+            <div class="card-body">
+              <div class="h5 mb-1">Sr. Technical Sales Engineer <span class="text-muted h6"> at SMC Corporation (I) Pvt Ltd, India
+                </span></div>
+              <div class="text-muted text-small mb-2">Jul 2016- Apr 2020</div>
+              <div>
+                <ul>
+                  <li>Prepared technical and commercial proposals which helped the organization win ten new recurring client</li>
+                  <li>
+                    Improved performance by generating team engagement reports and providing insights to the Manager
+                  </li>
+                  <li>
+                    Worked closely with Inventory Manager, Order Management and Distribution team to manage shipments in
+                    given deadlines
+                  </li>
+                  <li>
+                    Provided support for fast order closure to external sales representatives which helped the organization to
+                    achieve projected sales goals
+                  </li>
+                </ul>
 
-  <a href="my-contact.html">Contact Me</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="timeline-card timeline-card-primary card shadow-sm">
+            <div class="card-body">
+              <div class="h5 mb-1">Sales Co-coordinator <span class="text-muted h6"> at Pima Controls (I) Pvt Ltd, Ahmedabad, India
+                </span></div>
+              <div class="text-muted text-small mb-2">Sept 2012-jun 2016</div>
+              <div>
+                <ul>
+                  <li>
+                    Handled multiple brands and achieved 100% sales growth independently in one year
+                  </li>
+                  <li>
+                    Identified sales opportunities through research and increased customer accounts by 10%
+                  </li>
+                  <li>
+                    Created and presented monthly and annual sales report analysis to formulate strong marketing strategies
+                    which resulted in regular sales growth
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="d-print-none" />
+      <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
+        <h2 class="h3 text mb-3">Contact</h2>
+        <div class="row">
+          <div class="col-md-7 d-print-none">
+            <div class="my-2">
+              <form action="mailto:jankip2691@gmail.com" method="POST" enctype="type/plain">
+                <div class="row">
+                  <div class="col-6">
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required><br>
+                  </div>
+                  <div class="col-6">
+                    <input class="form-control" type="email" id="email" name="_replyto" placeholder="Your E-mail" required><br>
+                  </div>
+                </div>
+                <div class="form-group my-2">
+                  <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" placeholder="Your Message" required></textarea><br>
+                </div>
+                <button class="btn btn-primary mt-2" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+          <div class="col">
+            <div class="mt-2">
+              <h3 class="h6">Address</h3>
+              <div class="pb-2 text-secondary">Austin, Texas , U.S.A</div>
+              <h3 class="h6">Phone</h3>
+              <div class="pb-2 text-secondary">331-385-4847</div>
+              <h3 class="h6">Email</h3>
+              <div class="pb-2 text-secondary">jankip2691@gmail.com</div>
+            </div>
+          </div>
+          <div class="col d-none d-print-block">
+            <div class="mt-2">
+              <div>
+                <div class="mb-2">
+                  <div class="text-dark"><i class="fab fa-twitter mr-1"></i><span>https://twitter.com/templateflip</span>
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <div class="text-dark"><i class="fab fa-facebook mr-1"></i><span>https://www.facebook.com/templateflip</span>
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <div class="text-dark"><i class="fab fa-instagram mr-1"></i><span>https://www.instagram.com/templateflip</span>
+                  </div>
+                </div>
+                <div class="mb-2">
+                  <div class="text-dark"><i class="fab fa-github mr-1"></i><span>https://github.com/templateflip</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+      <div class="container">
+        <div class="my-3">
+          <div class="h4">Janki Patel</div>
+          <div class="footer-nav">
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="https://twitter.com/home" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/janki.patel.188/" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/janu_patel26/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/JankiPatel26" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="text-small">
+          <div class="mb-1">&copyright.@janki2021</div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/aos.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
 </body>
 
 </html>
